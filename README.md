@@ -2,7 +2,7 @@
     <img alt="qs" src="./logos/banner_default.png" width="800" />
 </p>
 
-# qs <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# @poppinss/qs <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![github actions][actions-image]][actions-url]
 [![coverage][codecov-image]][codecov-url]
@@ -11,6 +11,9 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/9058/badge)](https://bestpractices.coreinfrastructure.org/projects/9058)
 
 [![npm badge][npm-badge-png]][package-url]
+
+> A fork of the original [qs](https://www.npmjs.com/package/qs) package, minus the unwanted polyfill of `side-channel` package.
+> I have decide not to touch the codebase at all, so that we can bring in upstream changes with little effort.
 
 A querystring parsing and stringifying library with some added security.
 
@@ -21,7 +24,7 @@ The **qs** module was originally created and maintained by [TJ Holowaychuk](http
 ## Usage
 
 ```javascript
-var qs = require('qs');
+var qs = require('@poppinss/qs');
 var assert = require('assert');
 
 var obj = qs.parse('a=c');
