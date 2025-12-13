@@ -2,7 +2,7 @@
     "name": "@poppinss/qs",
     "description": "A querystring parser that supports nesting and arrays, with a depth limit",
     "homepage": "https://github.com/poppinss/qs",
-    "version": "6.14.0",
+    "version": "6.15.0",
     "files": [
         "lib"
     ],
